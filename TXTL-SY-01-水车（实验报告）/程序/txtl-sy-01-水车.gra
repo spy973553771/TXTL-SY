@@ -1,0 +1,159 @@
+<CanvasGraph Program="txtl-sy-01-水车">
+  <Item LockChild="yes" Type="ProgUnit" Position="125,50" ID="edb277f0-2de5-476b-aa28-a16e990f6173" Instruction="6eca58ac-4aa2-4ab8-9727-91e655ff14e3" PortNext="d11e644d-4d7b-4993-ab40-330775bc1b66">
+    <Child>d11e644d-4d7b-4993-ab40-330775bc1b66</Child>
+  </Item>
+  <Item Locked="yes" Type="LinkHandle" Position="125, 77" ID="d11e644d-4d7b-4993-ab40-330775bc1b66" Parent="edb277f0-2de5-476b-aa28-a16e990f6173" HandleType="MainOuput" />
+  <Item LockChild="yes" Type="ProgUnit" Position="180,1380" ID="eb3be95f-010b-4882-aa13-97fbc143424d" Instruction="7e376f14-f10b-4af9-ae1b-1904b1a6e40c" PortIn="68bfcbcd-6815-42f3-a834-75b69fcced07">
+    <Child>68bfcbcd-6815-42f3-a834-75b69fcced07</Child>
+  </Item>
+  <Item Locked="yes" Type="LinkHandle" Position="180, 1353" ID="68bfcbcd-6815-42f3-a834-75b69fcced07" Parent="eb3be95f-010b-4882-aa13-97fbc143424d" HandleType="Input" />
+  <Item Type="LinkLine" Position="125,78" ID="b1e75235-b07c-4549-abba-9d662be4fee6" From="d11e644d-4d7b-4993-ab40-330775bc1b66" To="4a5130b6-c6f9-4167-8f04-e36885f3cf8a">
+    <Points Count="4">
+      <Point ID="0">125, 78</Point>
+      <Point ID="1">125, 87</Point>
+      <Point ID="2">133, 87</Point>
+      <Point ID="3">133, 97</Point>
+    </Points>
+  </Item>
+  <Item LockChild="yes" Type="ProgUnit" Position="135,225" ID="1db49654-847d-44e5-b16c-7fac7847321e" Instruction="62558fc2-de2b-4e9e-b842-22ec193acc85" PortIn="879a91dc-878e-40c8-8320-4ffd8d3000ac" PortNext="a555cb9c-2b5e-4d92-a2e9-5b88766f7a7a">
+    <Child>879a91dc-878e-40c8-8320-4ffd8d3000ac</Child>
+    <Child>a555cb9c-2b5e-4d92-a2e9-5b88766f7a7a</Child>
+  </Item>
+  <Item Locked="yes" Type="LinkHandle" Position="135, 198" ID="879a91dc-878e-40c8-8320-4ffd8d3000ac" Parent="1db49654-847d-44e5-b16c-7fac7847321e" HandleType="Input" />
+  <Item Locked="yes" Type="LinkHandle" Position="135, 252" ID="a555cb9c-2b5e-4d92-a2e9-5b88766f7a7a" Parent="1db49654-847d-44e5-b16c-7fac7847321e" HandleType="MainOuput" />
+  <Item LockChild="yes" Type="ProgUnit" Position="165,1260" ID="02bfa026-9368-4ac8-bee4-449a302637c1" GoLeft="yes" Instruction="a07345c5-9fa6-4180-85c0-39d040bf22ca" PortIn="4f16a684-84ea-4c4d-8cc9-c46a03c4f01f" PortNext="932285e9-5756-428f-85c8-dc73193c604c" PortGo="c6e2c4c0-03c7-4c93-a48f-a8dd864cefd2">
+    <Child>4f16a684-84ea-4c4d-8cc9-c46a03c4f01f</Child>
+    <Child>932285e9-5756-428f-85c8-dc73193c604c</Child>
+    <Child>c6e2c4c0-03c7-4c93-a48f-a8dd864cefd2</Child>
+  </Item>
+  <Item Locked="yes" Type="LinkHandle" Position="165, 1233" ID="4f16a684-84ea-4c4d-8cc9-c46a03c4f01f" Parent="02bfa026-9368-4ac8-bee4-449a302637c1" HandleType="Input" />
+  <Item Locked="yes" Type="LinkHandle" Position="165, 1287" ID="932285e9-5756-428f-85c8-dc73193c604c" Parent="02bfa026-9368-4ac8-bee4-449a302637c1" HandleType="MainOuput" />
+  <Item Locked="yes" Type="LinkHandle" Position="105, 1260" ID="c6e2c4c0-03c7-4c93-a48f-a8dd864cefd2" Parent="02bfa026-9368-4ac8-bee4-449a302637c1" HandleType="SubOutput" />
+  <Item Type="LinkLine" Position="165,1288" ID="66a179d9-52bc-4707-a114-255ac92fd921" From="932285e9-5756-428f-85c8-dc73193c604c" To="68bfcbcd-6815-42f3-a834-75b69fcced07">
+    <Points Count="4">
+      <Point ID="0">165, 1288</Point>
+      <Point ID="1">165, 1307</Point>
+      <Point ID="2">180, 1307</Point>
+      <Point ID="3">180, 1352</Point>
+    </Points>
+  </Item>
+  <Item LockChild="yes" Type="ProgUnit" Position="133,125" ID="71aba42f-b4ee-4ac5-9897-1b1899cf9c54" Instruction="479e477c-4f93-4fa9-8132-4db3a7f6202a" PortIn="4a5130b6-c6f9-4167-8f04-e36885f3cf8a" PortNext="d117c9f8-4a9d-4bbd-89e9-3fcf7054ff09">
+    <Child>4a5130b6-c6f9-4167-8f04-e36885f3cf8a</Child>
+    <Child>d117c9f8-4a9d-4bbd-89e9-3fcf7054ff09</Child>
+  </Item>
+  <Item Locked="yes" Type="LinkHandle" Position="133, 98" ID="4a5130b6-c6f9-4167-8f04-e36885f3cf8a" Parent="71aba42f-b4ee-4ac5-9897-1b1899cf9c54" HandleType="Input" />
+  <Item Locked="yes" Type="LinkHandle" Position="133, 152" ID="d117c9f8-4a9d-4bbd-89e9-3fcf7054ff09" Parent="71aba42f-b4ee-4ac5-9897-1b1899cf9c54" HandleType="MainOuput" />
+  <Item Type="LinkLine" Position="133,153" ID="74827ed3-fb28-49d7-a01f-498acf9f8a3a" From="d117c9f8-4a9d-4bbd-89e9-3fcf7054ff09" To="879a91dc-878e-40c8-8320-4ffd8d3000ac">
+    <Points Count="4">
+      <Point ID="0">133, 153</Point>
+      <Point ID="1">133, 175</Point>
+      <Point ID="2">135, 175</Point>
+      <Point ID="3">135, 197</Point>
+    </Points>
+  </Item>
+  <Item Type="LinkLine" Position="105,1260" ID="462aa698-75bd-4b57-935a-fd71ca5a046a" From="c6e2c4c0-03c7-4c93-a48f-a8dd864cefd2" To="879a91dc-878e-40c8-8320-4ffd8d3000ac">
+    <Points Count="5">
+      <Point ID="0">105, 1260</Point>
+      <Point ID="1">60, 1260</Point>
+      <Point ID="2">60, 188</Point>
+      <Point ID="3">135, 188</Point>
+      <Point ID="4">135, 198</Point>
+    </Points>
+  </Item>
+  <Item Type="LinkLine" Position="135,253" ID="e2a426ff-d9b6-4885-9843-d80776806293" From="a555cb9c-2b5e-4d92-a2e9-5b88766f7a7a" To="b8e7e96d-c01f-4273-9ed6-cd4485c2de1a">
+    <Points Count="4">
+      <Point ID="0">135, 253</Point>
+      <Point ID="1">135, 272</Point>
+      <Point ID="2">150, 272</Point>
+      <Point ID="3">150, 464</Point>
+    </Points>
+  </Item>
+  <Item LockChild="yes" Type="ProgUnit" Position="150,510" ID="0a0c9e31-130b-450e-afa0-b860d7e98e41" Instruction="7926b0a6-a5b5-461d-8e2b-981833fb2bb9" PortIn="b8e7e96d-c01f-4273-9ed6-cd4485c2de1a" PortNext="34f03f02-53e6-44a0-aae7-1a9bc5236861" PortGo="9221fe0a-c61d-4494-90ba-39c49f230471">
+    <Child>b8e7e96d-c01f-4273-9ed6-cd4485c2de1a</Child>
+    <Child>34f03f02-53e6-44a0-aae7-1a9bc5236861</Child>
+    <Child>9221fe0a-c61d-4494-90ba-39c49f230471</Child>
+  </Item>
+  <Item Locked="yes" Type="LinkHandle" Position="150, 465" ID="b8e7e96d-c01f-4273-9ed6-cd4485c2de1a" Parent="0a0c9e31-130b-450e-afa0-b860d7e98e41" HandleType="Input" />
+  <Item Locked="yes" Type="LinkHandle" Position="150, 555" ID="34f03f02-53e6-44a0-aae7-1a9bc5236861" Parent="0a0c9e31-130b-450e-afa0-b860d7e98e41" HandleType="MainOuput" />
+  <Item Locked="yes" Type="LinkHandle" Position="225, 510" ID="9221fe0a-c61d-4494-90ba-39c49f230471" Parent="0a0c9e31-130b-450e-afa0-b860d7e98e41" HandleType="SubOutput" />
+  <Item LockChild="yes" Type="ProgUnit" Position="165,1170" ID="a76a4908-10c6-4de5-ace3-67aa2f9eccf8" Instruction="82fa1009-6896-4827-b954-e66b9ba3a8c9" PortIn="9cb68419-b597-4941-ae17-5b244d219cb1" PortNext="ad8f2b42-d609-41b0-806b-e4d0b94d2513">
+    <Child>9cb68419-b597-4941-ae17-5b244d219cb1</Child>
+    <Child>ad8f2b42-d609-41b0-806b-e4d0b94d2513</Child>
+  </Item>
+  <Item Locked="yes" Type="LinkHandle" Position="165, 1143" ID="9cb68419-b597-4941-ae17-5b244d219cb1" Parent="a76a4908-10c6-4de5-ace3-67aa2f9eccf8" HandleType="Input" />
+  <Item Locked="yes" Type="LinkHandle" Position="165, 1197" ID="ad8f2b42-d609-41b0-806b-e4d0b94d2513" Parent="a76a4908-10c6-4de5-ace3-67aa2f9eccf8" HandleType="MainOuput" />
+  <Item Type="LinkLine" Position="165,1198" ID="5a572213-b80c-42b0-9ba0-11218d06f4c3" From="ad8f2b42-d609-41b0-806b-e4d0b94d2513" To="4f16a684-84ea-4c4d-8cc9-c46a03c4f01f">
+    <Points Count="2">
+      <Point ID="0">165, 1198</Point>
+      <Point ID="1">165, 1232</Point>
+    </Points>
+  </Item>
+  <Item Type="LinkLine" Position="150,556" ID="b96d2263-c5b4-43ce-8423-a9664817f08a" From="34f03f02-53e6-44a0-aae7-1a9bc5236861" To="c3a03841-3ded-44ff-a198-5723154708a9">
+    <Points Count="2">
+      <Point ID="0">150, 556</Point>
+      <Point ID="1">150, 592</Point>
+    </Points>
+  </Item>
+  <Item LockChild="yes" Type="ProgUnit" Position="150,750" ID="b37a4377-c90a-43be-bbed-933aa3abcb8f" Instruction="4d5301d2-ed05-4971-9fc6-14a2ead880b7" PortIn="f4826908-dc6a-4f3e-883a-9d975449079c" PortNext="484a37d1-57f1-45f6-8d5b-157f1dc32135" PortGo="704ad736-c6ff-4b56-970f-177d145b040d">
+    <Child>f4826908-dc6a-4f3e-883a-9d975449079c</Child>
+    <Child>484a37d1-57f1-45f6-8d5b-157f1dc32135</Child>
+    <Child>704ad736-c6ff-4b56-970f-177d145b040d</Child>
+  </Item>
+  <Item Locked="yes" Type="LinkHandle" Position="150, 705" ID="f4826908-dc6a-4f3e-883a-9d975449079c" Parent="b37a4377-c90a-43be-bbed-933aa3abcb8f" HandleType="Input" />
+  <Item Locked="yes" Type="LinkHandle" Position="150, 795" ID="484a37d1-57f1-45f6-8d5b-157f1dc32135" Parent="b37a4377-c90a-43be-bbed-933aa3abcb8f" HandleType="MainOuput" />
+  <Item Locked="yes" Type="LinkHandle" Position="225, 750" ID="704ad736-c6ff-4b56-970f-177d145b040d" Parent="b37a4377-c90a-43be-bbed-933aa3abcb8f" HandleType="SubOutput" />
+  <Item Type="LinkLine" Position="150,796" ID="4deefa89-970b-4ff5-bbf9-beeef1ab124c" From="484a37d1-57f1-45f6-8d5b-157f1dc32135" To="15269591-cda8-4dcd-bdd3-1af0d1657f1b">
+    <Points Count="4">
+      <Point ID="0">150, 796</Point>
+      <Point ID="1">150, 815</Point>
+      <Point ID="2">165, 815</Point>
+      <Point ID="3">165, 1007</Point>
+    </Points>
+  </Item>
+  <Item LockChild="yes" Type="ProgUnit" Position="150,620" ID="0c0d6b68-f2d8-41c5-bffb-316db46c939f" Instruction="73b9d050-7d0d-4789-86fd-41249d1ca18f" PortIn="c3a03841-3ded-44ff-a198-5723154708a9" PortNext="775aeba0-7360-4cc7-849f-ed6b42c88764">
+    <Child>c3a03841-3ded-44ff-a198-5723154708a9</Child>
+    <Child>775aeba0-7360-4cc7-849f-ed6b42c88764</Child>
+  </Item>
+  <Item Locked="yes" Type="LinkHandle" Position="150, 593" ID="c3a03841-3ded-44ff-a198-5723154708a9" Parent="0c0d6b68-f2d8-41c5-bffb-316db46c939f" HandleType="Input" />
+  <Item Locked="yes" Type="LinkHandle" Position="150, 647" ID="775aeba0-7360-4cc7-849f-ed6b42c88764" Parent="0c0d6b68-f2d8-41c5-bffb-316db46c939f" HandleType="MainOuput" />
+  <Item Type="LinkLine" Position="150,648" ID="4accb24d-c919-4adf-bdd7-fdcbc7fb87f5" From="775aeba0-7360-4cc7-849f-ed6b42c88764" To="f4826908-dc6a-4f3e-883a-9d975449079c">
+    <Points Count="4">
+      <Point ID="0">150, 648</Point>
+      <Point ID="1">150, 667</Point>
+      <Point ID="2">150, 667</Point>
+      <Point ID="3">150, 704</Point>
+    </Points>
+  </Item>
+  <Item Type="LinkLine" Position="225,750" ID="2aed1ccc-8429-4377-bd4f-36247203038c" From="704ad736-c6ff-4b56-970f-177d145b040d" To="b8e7e96d-c01f-4273-9ed6-cd4485c2de1a">
+    <Points Count="5">
+      <Point ID="0">225, 750</Point>
+      <Point ID="1">240, 750</Point>
+      <Point ID="2">240, 450</Point>
+      <Point ID="3">150, 450</Point>
+      <Point ID="4">150, 465</Point>
+    </Points>
+  </Item>
+  <Item Type="LinkLine" Position="225,510" ID="9497bec6-f695-4948-82f7-550988dc4b78" From="9221fe0a-c61d-4494-90ba-39c49f230471" To="b8e7e96d-c01f-4273-9ed6-cd4485c2de1a">
+    <Points Count="5">
+      <Point ID="0">225, 510</Point>
+      <Point ID="1">255, 510</Point>
+      <Point ID="2">255, 435</Point>
+      <Point ID="3">150, 435</Point>
+      <Point ID="4">150, 465</Point>
+    </Points>
+  </Item>
+  <Item LockChild="yes" Type="ProgUnit" Position="165,1035" ID="0d7e2640-81d0-4069-8a82-51be719ba1a1" Instruction="8b4a6047-d84c-4399-9204-41e26dab847b" PortIn="15269591-cda8-4dcd-bdd3-1af0d1657f1b" PortNext="259bc339-e3a3-41ed-853e-018aaae1127d">
+    <Child>15269591-cda8-4dcd-bdd3-1af0d1657f1b</Child>
+    <Child>259bc339-e3a3-41ed-853e-018aaae1127d</Child>
+  </Item>
+  <Item Locked="yes" Type="LinkHandle" Position="165, 1008" ID="15269591-cda8-4dcd-bdd3-1af0d1657f1b" Parent="0d7e2640-81d0-4069-8a82-51be719ba1a1" HandleType="Input" />
+  <Item Locked="yes" Type="LinkHandle" Position="165, 1062" ID="259bc339-e3a3-41ed-853e-018aaae1127d" Parent="0d7e2640-81d0-4069-8a82-51be719ba1a1" HandleType="MainOuput" />
+  <Item Type="LinkLine" Position="165,1063" ID="74b9bfff-b8b6-4e3b-9653-1c97b667d675" From="259bc339-e3a3-41ed-853e-018aaae1127d" To="9cb68419-b597-4941-ae17-5b244d219cb1">
+    <Points Count="4">
+      <Point ID="0">165, 1063</Point>
+      <Point ID="1">165, 1082</Point>
+      <Point ID="2">165, 1082</Point>
+      <Point ID="3">165, 1142</Point>
+    </Points>
+  </Item>
+</CanvasGraph>
