@@ -1,0 +1,4 @@
+"STARTUP.obj",
+"main.obj" 
+TO "TEST-F" 
+RAMSIZE(256) 

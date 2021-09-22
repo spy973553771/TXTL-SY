@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\S.P.Y\Desktop\½ÓÊÕÆ÷\TEST-F.uvproj
+Project File Date:  08/12/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(184): warning C206: 'delaybee': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY7US?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY19US?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  DELAYBEE
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  DELAYBEE
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 021FH
+Program Size: data=26.1 xdata=0 code=550
+creating hex file from "TEST-F"...
+"TEST-F" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY7US?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY19US?MAIN
+Program Size: data=26.1 xdata=0 code=547
+creating hex file from "TEST-F"...
+"TEST-F" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY7US?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DELAY19US?MAIN
+Program Size: data=26.1 xdata=0 code=547
+creating hex file from "TEST-F"...
+"TEST-F" - 0 Error(s), 2 Warning(s).
